@@ -63,3 +63,7 @@ Este material foi elaborado como parte da disciplina **ACA0430 — Meteorologia 
 
 - Docente responsável: Prof. Dr. Ricardo de Camargo
 - Colaboradora: Dra. Carolina Barnez Gramcianinov
+
+## Uso de inteligência artificial
+
+Os notebooks deste repositório foram desenvolvidos com auxílio de uma ferramenta de inteligência artificial (Claude Code, da Anthropic), sob orientação e revisão da equipe da disciplina.
