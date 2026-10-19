@@ -35,15 +35,3 @@ Tempo aproximado de execução com os parâmetros padrão: 5–10 min por notebo
 - **WAVERYS** (Law-Chune et al., 2021), produto CMEMS `GLOBAL_MULTIYEAR_WAV_001_032`: 3-horário, 0,2°.
 
 Cada notebook traz, no final, um texto-base para a seção de **Métodos** e a lista de referências.
-
-## Para a docente: regenerar os notebooks
-
-Os notebooks são gerados por scripts em [`dev/`](dev/) (`build_t1.py`, `build_t2.py`, `build_t3.py`, com as células comuns em `comum.py`). Para alterar um notebook, edite o script correspondente e rode:
-
-```bash
-python dev/build_t1.py              # gera o .ipynb na raiz
-python dev/executa.py T1_tema1_mare_tempestade_ondas.ipynb   # executa e salva em dev/executados/
-python dev/finaliza.py              # limpa as saídas, valida e copia as figuras para exemplos_figuras/
-```
-
-`executa.py` usa um kernel Jupyter chamado `to_plot_aca`; ajuste o nome para o seu ambiente.
