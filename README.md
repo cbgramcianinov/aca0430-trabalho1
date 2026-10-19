@@ -8,9 +8,9 @@ Os notebooks são **um ponto de partida**: mude as datas, a região e acrescente
 
 | Tema | Caso de exemplo | Abrir |
 |---|---|---|
-| 1. Ciclone → maré de tempestade e ondas | Ressaca de Santos, 18–25/08/2016 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cgramcianinov/aca0430-trabalho1/blob/main/T1_tema1_mare_tempestade_ondas.ipynb) |
-| 2. Vento favorável → ressurgência costeira | Cabo Frio, 08–26/01/2016 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cgramcianinov/aca0430-trabalho1/blob/main/T1_tema2_ressurgencia_costeira.ipynb) |
-| 3. Alta semipermanente (ASAS) → fluxos ar-mar | Verão (jan–fev) de 2014 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cgramcianinov/aca0430-trabalho1/blob/main/T1_tema3_alta_semipermanente.ipynb) |
+| 1. Ciclone → maré de tempestade e ondas | Ressaca de Santos, 18–25/08/2016 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cbgramcianinov/aca0430-trabalho1/blob/main/T1_tema1_mare_tempestade_ondas.ipynb) |
+| 2. Vento favorável → ressurgência costeira | Cabo Frio, 08–26/01/2016 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cbgramcianinov/aca0430-trabalho1/blob/main/T1_tema2_ressurgencia_costeira.ipynb) |
+| 3. Alta semipermanente (ASAS) → fluxos ar-mar | Verão (jan–fev) de 2014 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cbgramcianinov/aca0430-trabalho1/blob/main/T1_tema3_alta_semipermanente.ipynb) |
 
 Exemplos das figuras que cada notebook gera estão em [`exemplos_figuras/`](exemplos_figuras/).
 
