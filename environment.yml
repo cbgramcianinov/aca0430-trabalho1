@@ -1,0 +1,19 @@
+name: aca0430
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - xarray
+  - dask
+  - zarr
+  - gcsfs
+  - netcdf4
+  - matplotlib
+  - cartopy
+  - cmocean
+  - copernicusmarine
+  - jupyterlab
+  - ipykernel

@@ -28,6 +28,27 @@ Exemplos das figuras que cada notebook gera estão em [`exemplos_figuras/`](exem
 
 Tempo aproximado de execução com os parâmetros padrão: 5–10 min por notebook. O Tema 3 é o mais lento, por causa da climatologia do ERA5.
 
+## Executar no seu computador
+
+Os notebooks também rodam fora do Colab. O arquivo [`environment.yml`](environment.yml) cria um ambiente conda com todos os pacotes necessários:
+
+```bash
+conda env create -f environment.yml
+conda activate aca0430
+```
+
+Uma vez só, faça o login no Copernicus Marine. O usuário e a senha ficam salvos no seu computador, não no notebook:
+
+```bash
+copernicusmarine login
+```
+
+Depois abra o notebook com `jupyter lab` e rode normalmente. Fora do Colab:
+
+- a célula de instalação é pulada automaticamente;
+- os dados e as figuras são salvos em `saida/dados/` e `saida/figuras/`, na pasta onde o notebook está;
+- a célula de credenciais usa o login salvo pelo comando acima.
+
 ## Dados
 
 - **ERA5** (Hersbach et al., 2020), via [ARCO-ERA5](https://github.com/google-research/arco-era5) no Google Cloud: horário, 0,25°.
@@ -35,3 +56,10 @@ Tempo aproximado de execução com os parâmetros padrão: 5–10 min por notebo
 - **WAVERYS** (Law-Chune et al., 2021), produto CMEMS `GLOBAL_MULTIYEAR_WAV_001_032`: 3-horário, 0,2°.
 
 Cada notebook traz, no final, um texto-base para a seção de **Métodos** e a lista de referências.
+
+## Sobre
+
+Este material foi elaborado como parte da disciplina **ACA0430 — Meteorologia Sinótica e Aplicações à Oceanografia**, oferecida pelo Instituto de Astronomia, Geofísica e Ciências Atmosféricas (IAG) da Universidade de São Paulo (USP).
+
+- Docente responsável: Prof. Dr. Ricardo de Camargo
+- Colaboradora: Dra. Carolina Barnez Gramcianinov
